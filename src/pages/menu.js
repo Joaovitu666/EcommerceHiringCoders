@@ -1,9 +1,7 @@
 import DailyMenu1 from "../components/dailymenu.js";
 import DailyMenu2 from "../components/dailymenu2.js";
 import "../CSS/dailymenu.css";
-import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
-import Casd from "../assets/images/Casd_Branco.png";
+import React from "react";
 
 function Menu() {
   return (

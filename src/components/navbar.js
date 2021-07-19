@@ -32,7 +32,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="within">
         <Link to="/" className="Nav__brand">
-          <img src={logo} width="300px" height="60px" />
+          <img src={logo} alt="" width="300px" height="60px" />
         </Link>
       </div>
       <div className="within">

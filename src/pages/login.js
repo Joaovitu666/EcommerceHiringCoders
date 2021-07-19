@@ -1,10 +1,8 @@
 import "../CSS/dailymenu.css";
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
 import Casd from "../assets/images/Casd_Branco.png";
 
 function Login() {
-  const history = useHistory();
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
   function SaveData() {
