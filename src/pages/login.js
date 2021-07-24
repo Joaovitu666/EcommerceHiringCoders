@@ -1,5 +1,4 @@
 import "../CSS/dailymenu.css";
-import React, { useState } from "react";
 import Casd from "../assets/images/Casd_Branco.png";
 import { Link } from "react-router-dom";
 
