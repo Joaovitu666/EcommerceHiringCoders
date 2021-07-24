@@ -6,6 +6,7 @@ import Footer from "./components/footer.js";
 import Menu from "./pages/menu.js";
 import About from "./pages/about.js";
 import Login from "./pages/login.js";
+import Login2 from "./pages/login2.js";
 import ClientRegister from "./pages/CadastroCliente/index.js";
 import ProductRegister from "./pages/CadastroProduto/index.js";
 import ProductTable from "./pages/RepositorioProduto/index.js";
@@ -25,8 +26,11 @@ export default function App() {
           <Route exact path="/">
             <Menu />
           </Route>
-          <Route path="/Login">
+          <Route path="/Cadastro">
             <Login />
+          </Route>
+          <Route path="/Login">
+            <Login2 />
           </Route>
           <Route path="/Client">
             <ClientRegister />
