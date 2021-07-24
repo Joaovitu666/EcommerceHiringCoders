@@ -7,7 +7,7 @@ function Login() {
     <div>
       <div className="welcome">
         <div className="Img">
-          <h1 className="text1">Faça Login para receber descontos! </h1>
+          <h1 className="text1">Cadastre produtos e clientes aqui ! </h1>
           <img src={Casd} className="Casd" alt=""></img>
         </div>
         <div className="cadastroContainer">
