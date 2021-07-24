@@ -11,8 +11,13 @@ div.logo {
   flex-direction: column;
   width: 25%;
 }
+.icon {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 5px;
+}
 div.titulo {
-  width: 80%;
+  width: 30%;
   margin-left: 22%;
   margin-top: 0;
 }

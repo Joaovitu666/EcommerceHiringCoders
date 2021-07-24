@@ -43,9 +43,9 @@ const Navbar = () => {
           <BaseButton classname="text-button" text="SOBRE NÓS" />
         </Link>
         <Link to="/login" className="nav-button">
-          <BaseButton classname="text-button" text="LOGIN" />
+          <BaseButton classname="text-button" text="Cadastro(desafio2)" />
         </Link>
-        <Link to="/about" className="nav-button">
+        <Link to="/client" className="nav-button">
           <BaseButton classname="text-button" text="CARRINHO" />
         </Link>
       </div>

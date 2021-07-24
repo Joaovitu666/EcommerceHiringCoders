@@ -1,14 +1,9 @@
 import "../CSS/dailymenu.css";
 import React, { useState } from "react";
 import Casd from "../assets/images/Casd_Branco.png";
+import { Link } from "react-router-dom";
 
 function Login() {
-  const [email, setEmail] = useState("");
-  const [senha, setSenha] = useState("");
-  function SaveData() {
-    localStorage.setItem("email", JSON.stringify(email));
-    localStorage.setItem("senha", JSON.stringify(senha));
-  }
   return (
     <div>
       <div className="welcome">
@@ -21,36 +16,12 @@ function Login() {
             <div className="title">
               <label>Cadastro</label>
             </div>
-            <label className="text2">Email</label>
-            <input
-              placeholder="nome@email.com"
-              type="email"
-              className="input"
-              onChange={(e) => setEmail(e.target.value)}
-              value={email}
-            />
-            <label className="text2">Senha</label>
-            <input
-              placeholder="digite a senha"
-              type="password"
-              className="input"
-              onChange={(e) => setSenha(e.target.value)}
-              value={senha}
-            />
-            <label className="text2">Confirme a senha</label>
-            <input
-              placeholder="confirme a senha"
-              type="password"
-              className="input"
-            />
-            <button
-              type="button"
-              id="buttonCompanyStar"
-              className="btn btn-danger"
-              onClick={SaveData}
-            >
-              Login
-            </button>
+            <Link to="/Client" className="btn">
+              Cadastrar cliente
+            </Link>
+            <Link to="/Product" className="btn">
+              Cadastrar Produto
+            </Link>
           </div>
         </div>
       </div>

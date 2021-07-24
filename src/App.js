@@ -6,6 +6,10 @@ import Footer from "./components/footer.js";
 import Menu from "./pages/menu.js";
 import About from "./pages/about.js";
 import Login from "./pages/login.js";
+import ClientRegister from "./pages/CadastroCliente/index.js";
+import ProductRegister from "./pages/CadastroProduto/index.js";
+import ProductTable from "./pages/RepositorioProduto/index.js";
+import ClientTable from "./pages/RepositorioCliente/index.js";
 
 export default function App() {
   return (
@@ -23,6 +27,18 @@ export default function App() {
           </Route>
           <Route path="/Login">
             <Login />
+          </Route>
+          <Route path="/Client">
+            <ClientRegister />
+          </Route>
+          <Route path="/Product">
+            <ProductRegister />
+          </Route>
+          <Route path="/ProductRepository">
+            <ProductTable />
+          </Route>
+          <Route path="/ClientRepository">
+            <ClientTable />
           </Route>
         </Switch>
         <Footer />
